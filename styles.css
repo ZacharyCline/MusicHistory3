@@ -1,0 +1,88 @@
+#contentwrapper {
+	font-family: sans-serif;
+	width: 80%;
+}
+
+#Navigation {
+	background-color: #FFB4B0;
+	padding:1px;
+	border: 2px solid black;
+	margin: 10px;	
+	
+}
+body {
+	margin: 50px 50px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+#content {
+	padding: 1px;
+}
+
+#options {
+	display: inline-block;
+	background-color: #4DD7FA;
+	border: 2px solid black;
+	width: 20%;
+	padding: 40px 30px;
+	margin: 10px 10px;
+	height: 347px;
+	font-size: 18px;
+
+}
+input[type=range] {
+	width: 175px;
+}
+
+#Songs {
+	display: block;
+	float: right;
+	background-color: #FEFAC0;
+	width: 65%;
+	margin: 10px 10px;
+	border: 2px solid black;
+	padding: 20px;
+	height: 385px;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 5px 10px;
+}
+
+select {
+	width: 80%;
+	padding: 10px;
+}
+
+#Button {
+	background-color: #808080;
+	padding:12px 30px;
+	font-size: 20px;
+	margin: 5px 40px;
+}
+/*
+ul > li {
+  display: inline;
+  list-style-type: none;
+  margin: 5px 15px 0 15px;
+  background-color: goldenrod;
+  padding: 5px;
+}*/
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Css/styles.css">
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+
+
+<div id = "contentwrapper">
+
+		<div id= "Navigation">
+			<nav>
+				<ul>
+					<li><a href="#" id="link-add">Add Music</a></li>
+					<li> | </li>
+					<li><a href="#" id="link-list">List Music</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+
+
+	
+	<section class="hidden" id="add-view">
+	  <label>Song: <input type="text" id="SongInput"> </label>
+	  <label>Artist: <input type="text" id="ArtistInput"> </label>
+	  <label>Album: <input type="text" id="AlbumInput"> </label>
+	  <button id="buttonAdd">Add</button>
+	</section>
+
+
+
+
+<section id="list-view">
+	<div id= "content">
+
+                
+                <!-- This is the Blue Card Area -->
+
+
+		<div id="options">
+			<label>Song Length:</label>
+			<input type ="range" min="0" max="10">
+			
+			<label for="artist">Artist:</label>
+				<select id ="artistOpt" name="Artist">
+					<option value="Option 1">Option 1</option>
+					<option value="Option 2">Option 1</option>
+					<option value="Option 3">Option 1</option>
+					<option value="Option 4">Option 1</option>
+				</select>
+
+			<label for="album">Album:</label>
+				<select id ="albumOpt" name="Album">
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+					<option value="Option 1">Option 1</option>
+				</select>
+
+               
+			<div id = "genreOpt">
+				<table>
+					<th>Genre:</th>
+					<tr>
+						<td><input type="checkbox"/>Rock</td>
+						<td><input type="checkbox"/>Pop</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/>Blues</td>
+						<td><input type="checkbox"/>Classical</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox"/>Jazz</td>
+						<td><input type="checkbox"/>Hip Hop</td>
+					</tr>
+				</table>
+			</div>
+			<input type="Button" value="filter" id="Button">
+		</div>
+		
+			<!-- This is the Yellow Card -->
+
+
+			<div id="Songs">
+				<!-- <h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p>
+				<h2>Song Name</h2>
+				<p>Artist | Album | Genre</p> -->
+			</div>
+		</div>	
+	</section>
+
+
+
+
+	
+
+</div>
+
+
+<!-- THESE ARE ALL OF MY SCRIPT TAGS -->
+<script type="text/javascript" src="songs.js"></script>
+<script type="text/javascript" src="add.js"></script>
+<script type="text/javascript" src="list.js"></script>
+<!-- <script type="text/javascript" src="list.js"></script> -->
+</body>
+</html>
+
+
+<!-- <!doctype html>
+
+<html lang="en">
+<head>
+	<div class="red">
+  <link rel="stylesheet" type="text/css" href="styles.css">	
+  <a href="#">View Music</a>
+  <a href="#">Add Music</a>
+  <a href="#">Profile</a>
+  	</div>
+  <meta charset="utf-8">
+  <title>Music History</title>
+</head>
+<div>
+	<body>
+	<div class="light">
+		<h2>Ride</h2>
+			<p>Twenty One Pilots |  Blurryface  |  Genre</p>
+		<h2>Radioactive</h2>
+			<p>Imagine Dragons  |Night Visions	|  Genre</p>
+		<h2>Berzerk</h2>
+			<p>Emenim  |  The Marshall Mathers LP 2  |  Genre</p>
+		<h2>Cake by the Ocean</h2>
+			<p>DNCE  |  DNCE  |  Genre</p>
+		<h2>Back in Black</h2>
+			<p>ACDC  |  Back in Black  |  Genre</p>
+	</div>
+
+			<p>Song length:</p>
+			<h3>Artist:</h3>
+				<p>Options</p>
+			<h3>Album:</h3>
+				<p>Options</p>
+			<h3>Genre:</h3>
+				<p>Rock</p>
+				<p>Classical</p>
+				<p>Jass</p>
+				<p>Hip Hop</p> 
+
+
+</body>
+</div>
+</html>
+ -->
